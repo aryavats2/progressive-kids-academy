@@ -9,20 +9,22 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #e6f7ff;
+            background-color: #fff8e1; /* Soft cream background for warmth */
             color: #333;
         }
 
         header {
-            background-color: #3399ff;
+            background-color: #ff8a80; /* Vibrant coral pink for header */
             color: white;
             padding: 1rem 0;
             text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
         nav {
-            background-color: #333;
+            background-color: #ff5252; /* Bold red for navigation bar */
             overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         nav a {
@@ -32,25 +34,51 @@
             text-align: center;
             padding: 14px 20px;
             text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
         }
 
         nav a:hover {
-            background-color: #3399ff;
+            background-color: #ffcc80; /* Soft orange hover effect */
+            color: #333;
         }
 
         .content {
             padding: 2rem;
         }
 
-        .program {
-            margin-bottom: 2rem;
+        h2 {
+            color: #ff7043; /* Bright orange for main headings */
+            border-bottom: 2px solid #ffcc80;
+            padding-bottom: 0.5rem;
+        }
+
+        .program h3 {
+            color: #42a5f5; /* Sky blue for subheadings */
+            margin-bottom: 0.5rem;
+        }
+
+        .program p {
+            background-color: #e1f5fe; /* Light blue background for program descriptions */
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
         }
 
         footer {
             text-align: center;
             padding: 1rem;
-            background-color: #3399ff;
+            background-color: #ff7043; /* Bright orange for footer */
             color: white;
+            margin-top: 2rem;
+            font-size: 0.9rem;
+        }
+
+        .contact-info {
+            margin-top: 0.5rem;
+            font-size: 0.85rem;
+            color: #ffe0b2; /* Light cream for contact info */
         }
     </style>
 </head>
@@ -83,6 +111,10 @@
 
     <footer>
         <p>&copy; 2025 Progressive Kids Academy. All rights reserved.</p>
+        <div class="contact-info">
+            <p>Contact: 8210619508</p>
+            <p>Email: <a href="mailto:pandeymamta592@gmail.com" style="color: white; text-decoration: underline;">pandeymamta592@gmail.com</a></p>
+        </div>
     </footer>
 </body>
 </html>
